@@ -28,12 +28,24 @@ return {
 
   ---@type Ollama.Config
   opts = {
-    model = "codellama:7b",
+    model = "llama3",
     prompts = {
       Review = {
         prompt = "Please review the code:\n```$ftype\n$sel```",
         input_label = "Review > ",
-        model = "codellama:7b",
+        model = "codellama:34b",
+        action = "display",
+      },
+      EnDict = {
+        prompt = "Korean Dictionary(Simple Answer, just meaning): $sel",
+        input_label = "EnDict > ",
+        model = "llama3",
+        action = "display",
+      },
+      TranslationIntoKorean = {
+        prompt = "Please translate into Korean: $sel",
+        input_label = "Translation > ",
+        model = "llama3",
         action = "display",
       },
     },
