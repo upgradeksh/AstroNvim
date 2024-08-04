@@ -80,4 +80,7 @@ return {
       )
     end,
   },
+  {
+    "terrastruct/d2-vim",
+  },
 }
