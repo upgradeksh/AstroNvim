@@ -12,6 +12,7 @@ return {
       ensure_installed = {
         "lua_ls",
         "perlnavigator",
+        "jsonnet_ls",
       },
     },
   },
@@ -24,6 +25,7 @@ return {
         "stylua",
         "gofumpt",
         "goimports",
+        "jsonnetfmt",
         -- add more arguments for adding more null-ls sources
       },
     },
