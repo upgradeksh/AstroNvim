@@ -34,4 +34,5 @@ return {
   { import = "astrocommunity.pack.yaml" },
   -- { import = "astrocommunity.terminal-integration.toggleterm-manager-nvim" },
   { import = "astrocommunity.test.neotest" },
+  { import = "astrocommunity.colorscheme.cyberdream-nvim" },
 }
